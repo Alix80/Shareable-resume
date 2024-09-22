@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+
+    <div class="resume-container">
+        <div class="resume">
+            <section id="personal-info">
+                <h2>Personal Information</h2>
+                <div class="profile-info">
+                    <img src="image.jpeg" alt="Profile Picture" class="profile-pic">
+                    <div>
+                        <p><strong>Name:</strong> Safeer Ali</p>
+                        <p><strong>Contact:</strong> Safeerarain16@gmail.com</p>
+                        <p><strong>Location:</strong> Karachi, Pakistan</p>
+                        <p><strong>Phone:</strong> 1234567890</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="education">
+                <h2>Education</h2>
+                <div class="section-content">
+                    <p><strong>Bachelor of Engineering in Chemical Engineering</strong></p>
+                    <p>Karachi University, 2024</p>
+                    <p><strong>FSc in Pre-Engineering</strong></p>
+                    <p>The Ideal Higher Secondary, 2023</p>
+                    <p><strong>Matriculation in Computer Science</strong></p>
+                    <p>La Canadiana Children Academy, 2021</p>
+                </div>
+            </section>
+
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul class="skills-list">
+                    <li>JavaScript</li>
+                    <li>TypeScript</li>
+                    <li>HTML & CSS</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                    <li>Communication Skills</li>
+                    <li>Leadership</li>
+                </ul>
+            </section>
+
+            <section id="work-experience">
+                <h2>Work Experience</h2>
+                <div class="section-content">
+                    <p><strong>GSK Pharma Medical Company</strong></p>
+                    <p>Specialty and general medicines</p>
+                    <p><strong>Code Alpha</strong></p>
+                    <p>Front-End Development</p>
+                </div>
+            </section>
+
+            <button id="dark-mode-toggle" class="toggle-btn">Toggle Dark Mode</button>
+            <button id="downloadPdf">Download Resume as PDF</button>
+            <button id="toggle-skills" class="toggle-btn">Toggle Skills</button>
+            <button id="share-link">Share Resume Link</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
